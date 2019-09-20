@@ -16,8 +16,30 @@
    
 }
 
+#mid {
+	height: 70px;
+	position: relative;
+}
+
+.flow {
+	position: absolute;
+	right: 0px;
+}
+#mid .following {
+	height: 100%;
+}
+
+#mid .following {
+	padding-top: 21px;
+}
+#mid .following a {
+	text-decoration: none;
+    font-size: 18px;
+    color:darkgrey
+}
+
 #left img {
-    height: 60px;
+    height: 70px;
     width: 200px;
     padding-left: 50px;
     padding-top: 5px;
@@ -62,18 +84,21 @@
     left: 500px;
 }
 
+#main {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
 #main .row {
     height: auto;
-    min-height: 500px;
+    min-height: 342px;
 }
 
-.box-main {
-    border: 1px solid rgb(221, 211, 221);
+#main .row .box-main {
+	border: 1px solid rgb(221, 211, 221);
+	min-height: 300px;
 }
 
-#main {
-    margin-top: 40px;
-}
 .box-main h2 {
    padding-left: 50px;
    text-transform: uppercase;
